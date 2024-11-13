@@ -19,7 +19,7 @@ public class ScheduledEmailSender {
     public  ScheduledEmailSender(JavaMailSender mailSender) {
         this.mailSender = mailSender;
     }
-    @Scheduled(cron = "*/15 * * * * ?")
+    @Scheduled(cron = "*/10 * * * * *", zone = "Asia/Bishkek")
     public  void sendScheduledEmail() {
         if (!schedulerEnabled){
             return;
