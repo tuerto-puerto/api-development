@@ -22,8 +22,8 @@ public class EmailController {
             SimpleMailMessage message = new SimpleMailMessage();
             message.setFrom("turatbek777tobekov@gmail.com");
             message.setTo(toEmail);
-            message.setSubject("Амальскиий");
-            message.setText("Он состоит в musicClub");
+            message.setSubject("йоу");
+            message.setText("пока пока");
             mailSender.send(message);
             return "Успех, вы отправили email!";
         } catch (Exception e) {
