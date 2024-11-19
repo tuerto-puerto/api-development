@@ -54,6 +54,7 @@ http://localhost:8080/send-email?toEmail=example@example.com
 Ответ:
 Успешный запрос: Успех!
 ```
+Вместо example@example.com замените на тот email на который вы хотите отправить сообщение!
 
 Автоматическая отправка писем
 С помощью аннотации @Scheduled 
